@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD</title>
+</head>
+
+<body>
+    <div>
+        <header><span>CRUD</span></header>
+        <p>A simple create, read, update and delete application.</p>
+    </div>
+    <div class="input-container">
+        <input type="text" id="nameInput" placeholder="Name...">
+        <input type="number" name="age" id="ageInput" class="age-input" placeholder="Age...">
+        <input type="number" name="phone" id="phoneInput" class="phone-input" placeholder="Phone...">
+        <input type="email" name="email" id="emailInput" placeholder="Email...">
+        <button id="addButton">ADD DATA</button>
+    </div>
+    <table id="mainTable" class="table-container">
+        <tbody id="tbody">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+            <tr id="biancaTr">
+                <td>Bianca Sammatin Tatiyama</td>
+                <td>20</td>
+                <td>(11) 97098-3311</td>
+                <td>biancasammartin@gmail.com</td>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+<script type="module" src="./compiles/script.js"></script>
+
+</html>

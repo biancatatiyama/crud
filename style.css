@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:wght@100;300;400&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #1c1c1c;
+  font-size: 25px;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 4.1vw;
+  font-weight: 500;
+  color: #653aab;
+  margin-top: 1.5rem;
+}
+
+header span {
+  background-color: #141414;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 2.1vw;
+  padding-bottom: 2.1vw;
+  border-radius: 1.6rem;
+}
+
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: lighter;
+  font-size: 2vw;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.input-container input {
+  background-color: #2f2f2f;
+  padding: 1rem;
+  color: #f1f1f1;
+  font-size: 1.5vw;
+  width: 28vw;
+  border: none;
+  margin: 0.2rem;
+  border-radius: 0.4rem;
+  height: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-container .age-input {
+  width: 4rem;
+}
+
+.input-container .phone-input {
+  width: 12rem;
+}
+
+.input-container button {
+  font-family: "Quicksand", sans-serif;
+  background-color: #1c1c1c;
+  margin-top: 5px;
+  width: 7rem;
+  height: 3rem;
+  color: #f1f1f1;
+  font-size: 1.4vw;
+  margin-left: 0.5rem;
+  border: 2px solid #653aab;
+  border-radius: 0.5rem;
+}
+
+.input-container button:hover {
+  background-color: #653aab;
+}
+
+.table-container {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 400;
+}
+
+.table-container table,
+td,
+th {
+  border: 1px solid #525252;
+  text-align: left;
+}
+
+.table-container th,
+td {
+  padding: 15px;
+}
+
+.table-container button {
+  font-family: "Quicksand", sans-serif;
+  background-color: #1c1c1c;
+  width: 7rem;
+  color: #f1f1f1;
+  font-size: 1.4vw;
+  margin-left: 0.5rem;
+  border: 2px solid #653aab;
+  border-radius: 0.5rem;
+}
+
+.table-container button:hover {
+  background-color: #653aab;
+}
+/*# sourceMappingURL=style.css.map */
